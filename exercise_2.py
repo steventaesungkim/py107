@@ -26,3 +26,8 @@ print()
 print("First interest of Ramit: ", ramit["interests"][0])
 print()
 
+#3 Write a python expression that gets the email address of Jasmine.
+for i in ramit["friends"]:
+    if i["name"] == "Jasmine":
+        print("Jasmine's email is: ", i["email"])
+print()
