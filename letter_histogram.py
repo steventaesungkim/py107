@@ -42,28 +42,20 @@
 # # for repeat in user:
 # #     if
 # 
-word = "banana" 
+########## - FINAL
+word = input("Input a word and it will count the letters in the word: ").upper()
 bank = []
 counter = {}
 num = []
-# alpha = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","s","t","v","w","x","y","z"]
-# count = 0
-# while count < alpha[count]:
+
 for letter in word:
     if letter not in bank:
         bank.append(letter)
-        
 for index in bank:
     num.append(word.count(index))
-    # count += 1
-counter = bank
-counter[bank] = num
+for i in range(len(bank)):
+    counter[bank[i]] = num[i]
 
-
-    
-    # counter[bank] = num[index]
-print(bank)
-print(num) 
-print(counter) 
-    # print(word.count([word[letter]]))
+print(counter)
+print()
 
