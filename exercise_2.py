@@ -21,3 +21,8 @@ ramit = {
 #1 Write a python expression that gets the email address of Ramit.
 print("Email address for Ramit: ", ramit["email"])
 print()
+
+#2 Write a python expression that gets the first of Ramit's interests.
+print("First interest of Ramit: ", ramit["interests"][0])
+print()
+
