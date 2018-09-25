@@ -6,8 +6,8 @@ bank = []
 
 alpha = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","s","t","v","w","x","y","z"]
 
-for count in alpha[user]:
-    if int(user) == alpha[count]:
+for count in user:
+    if user == alpha[count]:
         bank.append(alpha[user])
         counter = 0
         while counter < bank[counter]:
