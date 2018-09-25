@@ -31,3 +31,10 @@ for i in ramit["friends"]:
     if i["name"] == "Jasmine":
         print("Jasmine's email is: ", i["email"])
 print()
+
+#4 Write a python expression that gets the second of Jan's two interests.
+for i in ramit["friends"]:
+    if i["name"] == "Jan":
+        print("Jan's second interest is: ", i["interests"][1])
+print()
+
