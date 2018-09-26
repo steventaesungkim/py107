@@ -28,7 +28,9 @@ phonebook_dict["Bob"] = "968-345-2345"
 print("Bob's number has been changed: ", phonebook_dict)
 print()
 
-#5 Print all the Phone entries
+#5 Print all the Phone entries 
+for person in phonebook_dict:
+    print("%s: %s" % (person, phonebook_dict[person]))
 print("Print out all the entries: ", phonebook_dict)
 print()
 

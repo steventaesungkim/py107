@@ -2,7 +2,7 @@
 
 sen = input("Input a sentence and it will count the words in the sentence: ").upper()
 word = []
-dic = {}
+dictionary = {}
 num = []
 
 
@@ -12,9 +12,7 @@ for w in str.split(sen):
 for w in word:
     num.append(sen.count(w))
 for w in range(len(word)):
-    dic[word[w]] = num[w]
+    dictionary[word[w]] = num[w]
 
-print(dic)
+print(dictionary)
 print()
-
-####Rewrite!
