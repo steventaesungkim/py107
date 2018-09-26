@@ -16,3 +16,5 @@ for w in range(len(word)):
 
 print(dic)
 print()
+
+####Rewrite!
